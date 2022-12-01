@@ -1,0 +1,25 @@
+.container {
+    max-width: 918px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.menu-button {
+    padding: 11px 38px;
+    border: 1px solid var(--title-second);
+    border-radius: 6px;
+    color: var(--color-text-1);
+    transition: 0.3s;
+}
+
+.menu-button:hover {
+    scale: 1.1;
+}
+
+.ativo {
+    display: block !important;
+}
+
+.desativa {
+    display: none !important;
+}

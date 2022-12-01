@@ -1,0 +1,44 @@
+:root {
+    /* Desktop */
+    --font-1-500: 500 0.875rem/1 'Manrope', sans-serif; /* Menu 14px */
+    --font-1-700: 700 5rem/1 'Manrope', sans-serif; /* Título principal 80px */
+    --font-1-800: 800 0.8rem/1 'Manrope', sans-serif; /* Botão 11px */
+
+    /* Mobile */
+    --font-2-400: 400 1.125rem/1 'Manrope', sans-serif; /* menu hamburguer 18px */ 
+    --font-2-600: 600 1.875rem/1 'Manrope', sans-serif; /* Parágrafo 30px */
+    --font-2-700: 700 3.125rem/1 'Manrope', sans-serif; /* Título principal 50px */
+}
+
+.font-1-500 {
+    font: var(--font-1-500);
+    letter-spacing: 1.1px;
+}
+.font-1-700{
+    font: var(--font-1-700);
+    letter-spacing: -3px;
+}
+.font-1-800 {
+    font: var(--font-1-800);
+    letter-spacing: 1.1px;
+}
+
+.font-1-700-vaza{
+    font: var(--font-1-700);
+    letter-spacing: -3px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #8257E5;
+    color: transparent;
+}
+
+.font-2-400 {
+    font: var(--font-2-400);
+}
+
+.font-2-600 {
+    font: var(--font-2-600);
+}
+
+.font-2-700 {
+    font: var(--font-2-700);
+}

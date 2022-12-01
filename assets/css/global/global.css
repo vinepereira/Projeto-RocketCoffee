@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../../img/blur-1.png') no-repeat bottom left, url('../../img/blur-2.png') no-repeat top right;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@media (max-width:800px) {
+    body {
+        background: url('../../img/blur-mobile.png') no-repeat bottom center;
+        background-size: cover;
+    }
+}

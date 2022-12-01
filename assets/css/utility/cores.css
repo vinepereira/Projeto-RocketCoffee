@@ -1,0 +1,19 @@
+:root {
+    --background-princ: #000000;
+    --title-second: #8257E5;
+    --color-text-1: #FFFFFF;
+    --color-text-2: #A8A8B3;
+}
+
+.cor-1 {
+    color: var(--color-text-1);
+}
+.cor-2 {
+    color: var(--color-text-2);
+}
+.background {
+    background-color: var(--background-princ);
+}
+.cor-vazado {
+    color: #8257E5;
+}
